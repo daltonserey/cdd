@@ -4,7 +4,7 @@ cdd is a set of scripts written in python and bash that make it
 easier to navigate file system directories. It allows the user to
 directly jump to frequently used directories.
 
-# installation
+## installation
 
 Step 1: install `cdd`. Use `pip install --user cdd`. I didn't
 test whether it works installed as root user. Alternatively, you
@@ -23,3 +23,12 @@ making it permanent, by sourcing the file containing the `cd`
 function issuing the command `source
 ~/.local/bin/cdd-bash-function.sh`. To make it permanent, source
 the file from within your `~/.profile`.
+
+## use
+
+Simply use `cd` as you are used to. Whenever you use `cd` to
+navigate in the usual way within the file system, `cdd` will
+store the directories seen. Once the directory is in the cdd
+database, you can navigate directly to that directory, by typing
+`cd <pattern`, where `<pattern>` is any part of the name of the
+subdirectory.
