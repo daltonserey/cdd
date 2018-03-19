@@ -13,7 +13,7 @@ from jsonfile import *
 from directories import *
 
 config = JsonFile(os.path.expanduser('~/.cdd/config.json'))
-directories = Directories(config['directories'])
+directories = Directories(config.get('directories', []))
 
 LRED = '\033[1;31m'
 LGREEN = '\033[1;32m'

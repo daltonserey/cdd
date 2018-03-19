@@ -1,8 +1,10 @@
 import os
 
 class Directories:
+
     def __init__(self, directories):
         self.data = directories
+
 
     def __contains__(self, d):
         dirs = self.data

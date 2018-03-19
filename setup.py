@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='cdd',
-    version='0.1.8',
+    version='0.1.12',
     packages=['cdd',],
     license='GNU Affero General Public License v3',
     description='improved file system navigation with cd',
@@ -13,7 +13,7 @@ setup(
     author_email='daltonserey@gmail.com',
     scripts=['bin/cdd-bash-function.sh'],
     entry_points={
-        'console_scripts': ['cdd = cdd:main']
+        'console_scripts': ['cdd = cdd.cdd:main']
     },
     install_requires=[],
 )

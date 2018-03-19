@@ -70,7 +70,7 @@ class JsonFile(object):
 
 
     def __getitem__(self, key):
-        return self.data[key]
+        return self.data.get(key)
 
 
     def __contains__(self, key):
