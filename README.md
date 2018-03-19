@@ -31,6 +31,6 @@ navigate in the usual way within the file system, `cdd` will
 store the directories seen. Once the directory is in the cdd
 database, you can navigate directly to that directory, by typing
 
-> `cd <pattern>`,
+> `cd <pattern>`
 
 where `<pattern>` is any part of the name of the subdirectory.
