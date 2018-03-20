@@ -13,10 +13,10 @@ can download the files directly from GitHub.
 
 **Step 2: set up paths**. Once the scripts are installed, make
 sure your `PATH` and your `PYTHONPATH` include `cdd` directories.
-Usually, `pip --user` installs scripts in `~/.local/bin`. In this
-case, set your `PATH` to include that directory. And the library
-will be installed under `~/.local/lib/python2.7`. In this case,
-set your `PYTHONPATH` to include that directory.
+Usually, `pip --user` installs scripts in `~/.local/bin` and
+libraries under `~/.local/lib/python2.7`. If this is your case,
+add the first directory to your `PATH` and the second to your
+`PYTHONPATH`.
 
 **Step 3: set up the `cd` function**. This is achieved by sourcing
 the `cdd-bash-function.sh` file. You can test `cdd` without
