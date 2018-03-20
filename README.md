@@ -2,7 +2,8 @@
 
 cdd is a set of scripts written in python and bash that make it
 easier to navigate file system directories. It allows the user to
-directly jump to frequently used directories.
+jump directly to frequently used directories, typing just a
+few characters contained in directory basename.
 
 ## installation
 
