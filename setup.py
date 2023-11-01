@@ -18,4 +18,4 @@ setup(
     install_requires=[],
 )
 
-print "cdd setup finished..."
+print("cdd setup finished...")
